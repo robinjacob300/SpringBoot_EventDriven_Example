@@ -15,3 +15,11 @@ eg: taskkill /F /PID 7952
 This is an application which will do event programming
 It has usual listners and Generic listeners
 It uses Async
+
+In event based programming we must define Events which has to be inherited from  
+ApplicationEvent.
+Event should have an EventPublisher and an EventListener.
+
+our base API endpoint  
+
+#####  localhost:8080/home
